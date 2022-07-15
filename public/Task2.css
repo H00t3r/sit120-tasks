@@ -1,0 +1,19 @@
+/* style for p tag */
+p{
+    color: rgb(239, 89, 30);
+}
+/*stle for title class*/
+.title{
+    color: darkslateblue;
+}
+/*style for id*/
+#container{
+    font-size: large;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+img{
+    border: 3px solid coral;
+    height: 200px;
+    width: 200px;
+}

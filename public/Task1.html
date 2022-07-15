@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./Task2.css">
+    <script src="./task3.js"></script>
+    <title>Test Web Page</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="container"> 
+      <h1 class="title">Test webpage written using basic HTML tags</h1>
+      <img src="https://www.wired.com/images_blogs/business/2011/08/HTML5_Logo_512.png" alt="HTML 5 logo">
+      <p>This is my test document. In it I implement several basic HTML5 tags like <b>bold</b>, <i>italic</i> as well as
+          more hidden tags to create headings and subheadings, links and embedded images.</p>
+      <p>Another great use for HTML is the addition of <em>links</em>. Links can be basic URLs that link to other websites
+          or even other pages within the website. They appear underlined and blue by default. Example:
+          <a href="www.sync.deakin.edu.au/home" target="_blank">Deakin Sync</a></p>
+      <button onclick="getDate()">Get Date</button>
+      <p id="date"></p>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
